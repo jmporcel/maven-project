@@ -47,3 +47,6 @@ flows/
 target/
 **/*.mflow
 
+#ActiveMQ
+activemq-data/**
+*.log
