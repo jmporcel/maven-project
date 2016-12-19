@@ -121,7 +121,11 @@
 			<version>${mule.version}</version>
 			<scope>provided</scope>
 		</dependency>
-
+		<dependency>
+			<groupId>org.mule.modules</groupId>
+			<artifactId>mule-module-devkit-support</artifactId>
+			<version>${mule.version}</version>
+		</dependency>
 		<!-- non-mule dependencies -->
 		<dependency>
 			<groupId>org.apache.derby</groupId>
